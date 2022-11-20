@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "singularName": "publication",
+    "pluralName": "publications",
+    "displayName": "Faculty Publications",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faculty": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "journal": {
+      "type": "string"
+    },
+    "national": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "issn": {
+      "type": "string"
+    }
+  }
+}
